@@ -4,4 +4,4 @@ deployment:
   imageVersion: 1.29.4
 service:
   type: LoadBalancer
-  nodePort: 8080
+  nodePort: 30001
