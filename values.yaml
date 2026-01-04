@@ -1,7 +1,7 @@
 deployment:
   replicaCount: 3
   imageName: nginx
-  imageVersion: 1.29.4
+  imageVersion: trixie
 service:
   type: LoadBalancer
   nodePort: 30001

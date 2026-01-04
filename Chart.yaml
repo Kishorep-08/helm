@@ -2,4 +2,4 @@ apiVersion: v2
 name: nginx  # Chart name
 version: 1.0.1  # Chart version. Also called as revision
 description: helm chart for nginx installation
-appVersion: 1.29.4  # application version- image version
+appVersion: trixie  # application version- image version
