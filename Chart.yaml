@@ -1,0 +1,5 @@
+apiVersion: v2
+name: nginx  # Chart name
+version: 1.0.0  # Chart version. Also called as revision
+description: helm chart for nginx installation
+appVersion: latest  # application version- image version

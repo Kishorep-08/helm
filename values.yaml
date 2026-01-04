@@ -1,0 +1,7 @@
+deployment:
+  replicaCount: 3
+  imageName: nginx
+  imageVersion: 1.29.4
+service:
+  type: LoadBalancer
+  nodePort: 8080
