@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: service-demo
 spec:
-    type: {{ Values.service.type }}
+    type: {{ .Values.service.type }}
   selector:
     project: roboshop
     environment: dev
@@ -11,4 +11,4 @@ spec:
   - protocol: TCP
     port: 80   # Service Port
     targetPort: 80  # Pod Container Port
-    nodePort: {{ Values.service.nodePort }}
+    nodePort: {{ .Values.service.nodePort }}
